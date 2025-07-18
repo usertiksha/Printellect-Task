@@ -58,18 +58,3 @@ This project demonstrates a complete pipeline that reads the real-time **angle o
   ```
   streamlit run app.py
   ```
-
-
--->Real-Time Workflow
-
-[Servo Motor] 
-     ↓
-[Arduino (sketch_jul16a)] 
-     ↓ Serial Port
-[Python Script (2firestore.py)] 
-     ↓
-[Firestore Database]
-     ↓
-[Streamlit App (app.py)]
-     ↓
-Real-Time Display
